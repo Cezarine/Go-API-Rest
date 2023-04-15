@@ -1,7 +1,8 @@
 create table personalidades(
     id serial primary key,
     nome varchar,
-    historia varchar
+    historia varchar,
+    ativo boolean default 1
 );
 
 INSERT INTO personalidades(nome, historia) VALUES
